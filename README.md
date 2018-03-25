@@ -52,6 +52,8 @@ cqlsh> create table usertable (
     field8 varchar,
     field9 varchar);
 ```
+You may want to turn ```TRACING ON```.
+
 Run
 ./bench_cassandra.sh to start benchmark
 Results will be logged in individual log files.
